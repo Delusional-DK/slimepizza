@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+Program Name: Slime Pizza Official Site
+Programmer Name: Dylan Kokoska
+Date Written: ~June 2020
+Program Description: This page is the index of the official Slime Pizza Website.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="slime pizza site">
+    <meta name="keywords" content="music">
+    <meta name="author" content="Dylan Kokoska">
+    <title>Slime Pizza: Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+    <body>
+
+        <script>
+            function play(){
+                var audio = document.getElementById("audio");
+                audio.play();
+                        }
+        </script>
+
+        <audio id="audio" src="audio/Cartoon Sound Effect Ahooga.mp3" ></audio>
+
+        <header>
+            <div class="container">
+                <img src="images/Snowdog.png" alt="test" width="500" height="100">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="current" class="active" onclick="play()">SLIME (Home)</a></li>
+                        <li><a href="art.html" target="_blank" onclick="play()">SLIME (Art)</a></li>
+                        <li><a href="about.html" target="_blank" onclick="play()">SLIME (About)</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="images/GARRETT.jpg"/>
+                    <h3>Garrett Dulkis</h3>
+                    <p>One of the two FATASS faces of Slime Pizza, CAN and WILL steal your girl. Master of singing and writing. Is a fast food freak.</p>
+                </div>
+
+                <div class="box">
+                    <img src="images/ROBERT-1.jpg"/>
+                    <h3>Robert Dietrich <a href="https://open.spotify.com/artist/2YQ6mXz32l37Vk7G6595Lk?si=RDDLrL7vT26D1tN_PjsW3A&dl_branch=1" onclick="play()">(Essential Machine)</a></h3>
+                    <p>Second of the two faces of Slime Pizza, has beautiful long hair in the head and neck department (Redditor beard not seen in photo). Produces the hell out of the music and edits the videos like a boss.</p>
+                </div>
+
+                <div class="box">
+                    <img src="images/huah.jpg"/>
+                    <h3>Justin Mazzoni</h3>
+                    <p>"Graphic design is my passion." Sir Mazzoni may not be in any of the songs (so far and not of his will) but he's a fucking monster in photoshop and is the lead graphic designer for the group. Prestigious author.</p>
+                </div>
+
+                <div class="box2">
+                    <img src="images/DYLAN.jpg"/>
+                    <h3>Dylan Kokoska <a href="https://soundcloud.com/passer-does" onclick="play()">(Delusional_DK)</a></h3>
+                    <p>Sucks at making music but has a song anyway, good at voice acting though as seen in "Stuffed Crust." The guy who programmed this website.<br>*Non consentual alias for the artist.</p>
+                </div>
+                <div class="box">
+                    <img src="images/Braian.jpg"/>
+                    <h3>Blaine Dulkis <a href="https://soundcloud.com/user-29106478?ref=clipboard&p=i&c=0&si=DD48BDDDFC814DD69304233ADECA4B60&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" onclick="play()">(Augustine)</a></h3>
+                    <p>Big vocalist, wrote "Eat the Rich" and does vocals for alot of the songs. Handsome buck who steals the show. Head of photogrophy for the group.</p>
+                </div>
+                <div class="box">
+                    <img src="images/algains2.jpg"/>
+                    <h3>Alec Haines</h3>
+                    <p>Beat master for "Slimezone//Timezone" and a legendary troll. Can make anybody fuming with his trolling skills.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="vid">
+            <a href="https://www.youtube.com/watch?v=O2u78ViQuak" width="200%"><img src="images/slimezone.png" onclick="play()"/>
+            <h2>SLIMEZONE//TIMEZONE MUSIC VID OUT NOW!</h2></a>
+        </div>
+
+        <div class="album">
+            <img src="images/original.jpg"/><br>
+            <a href="https://open.spotify.com/album/01AsLOpqrq5UZEKHeVT1Oa?si=fa10dd81b9eb4520"><img src="images/spotify.png" onclick="play()"/></a>
+            <a href="https://music.apple.com/us/album/slime-pizza/1575285656"><img src="images/applemusic.jpg" onclick="play()" width="161" height="168"/></a>
+           <a href="https://soundcloud.com/user-922933291"><img src="images/soundcloud.png" onclick="play()" width="161" height="168"/></a>
+           <a href="https://www.instagram.com/slimepizzaofficial/"><img src="images/insta.jpg" onclick="play()" width="161" height="168"/></a>
+           <h2>CHECK OUR MF LINKS // COVER ALBUM BAYBEE!!!!!</h2>
+        </div>
+        
+        <footer>
+			<p>Slime Pizza Copyright &copy; 2021</p>
+        </footer>
+        
+    </body>
+
+</html>
